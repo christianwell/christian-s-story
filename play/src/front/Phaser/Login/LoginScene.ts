@@ -24,23 +24,16 @@ export class LoginScene extends ResizableScene {
 
     create() {
         loginSceneVisibleIframeStore.set(false);
-        //If authentication is mandatory, push authentication iframe
-        if (
-            localUserStore.getAuthToken() == undefined &&
-            gameManager.currentStartedRoom &&
-            gameManager.currentStartedRoom.authenticationMandatory
-        ) {
-            const redirect = connectionManager.loadOpenIDScreen(false);
-            if (redirect !== null) {
-                window.location.assign(redirect.toString());
-            }
-            loginSceneVisibleIframeStore.set(true);
-        }
-        loginSceneVisibleStore.set(true);
 
-        if (gameManager.currentStartedRoom.backgroundColor != undefined) {
-            this.cameras.main.setBackgroundColor(gameManager.currentStartedRoom.backgroundColor);
-        }
+        // Auto-login as "Christian" for Christian's Story
+        const storyName = "Christian";
+        gameManager.setPlayerName(storyName);
+        localUserStore.setName(storyName);
+
+        this.scene.stop(LoginSceneName);
+        gameManager.goToNextScene(LoginSceneName);
+        this.scene.remove(LoginSceneName);
+        loginSceneVisibleStore.set(false);
     }
 
     public async login(name: string): Promise<void> {

@@ -1,0 +1,386 @@
+{ "compressionlevel":-1,
+ "height":20,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 444, 444, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 444, 444, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":20,
+         "id":1,
+         "name":"start",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":20,
+         "x":0,
+         "y":0
+        },
+        {
+         "data":[201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201,
+            201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201],
+         "height":20,
+         "id":2,
+         "name":"floor",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":20,
+         "x":0,
+         "y":0
+        },
+        {
+         "data":[443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 443,
+            443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443, 443],
+         "height":20,
+         "id":3,
+         "name":"collisions",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":20,
+         "x":0,
+         "y":0
+        },
+        {
+         "draworder":"topdown",
+         "id":10,
+         "name":"story_zones",
+         "objects":[
+                {
+                 "class":"",
+                 "height":128,
+                 "id":1,
+                 "name":"intro_zone",
+                 "properties":[
+                        {
+                         "name":"storyText",
+                         "type":"string",
+                         "value":"Christian wakes up in an unfamiliar room. The air is cold. Something feels wrong..."
+                        },
+                        {
+                         "name":"storyTextPosition",
+                         "type":"string",
+                         "value":"bottom"
+                        },
+                        {
+                         "name":"storyTextStyle",
+                         "type":"string",
+                         "value":"cinematic"
+                        },
+                        {
+                         "name":"storyTextDuration",
+                         "type":"int",
+                         "value":6000
+                        },
+                        {
+                         "name":"storyLetterbox",
+                         "type":"bool",
+                         "value":true
+                        },
+                        {
+                         "name":"storyOnce",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":128,
+                 "x":64,
+                 "y":224
+                },
+                {
+                 "class":"",
+                 "height":96,
+                 "id":2,
+                 "name":"narration_zone",
+                 "properties":[
+                        {
+                         "name":"storyText",
+                         "type":"string",
+                         "value":"A faint whisper echoes through the hallway... 'Christian... find the door...'"
+                        },
+                        {
+                         "name":"storyTextPosition",
+                         "type":"string",
+                         "value":"center"
+                        },
+                        {
+                         "name":"storyTextStyle",
+                         "type":"string",
+                         "value":"narration"
+                        },
+                        {
+                         "name":"storyTextColor",
+                         "type":"string",
+                         "value":"#aaccff"
+                        },
+                        {
+                         "name":"storyTextDuration",
+                         "type":"int",
+                         "value":5000
+                        },
+                        {
+                         "name":"storyFadeIn",
+                         "type":"int",
+                         "value":1000
+                        },
+                        {
+                         "name":"storyFadeOut",
+                         "type":"int",
+                         "value":1000
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":192,
+                 "x":256,
+                 "y":128
+                },
+                {
+                 "class":"",
+                 "height":128,
+                 "id":3,
+                 "name":"danger_zone",
+                 "properties":[
+                        {
+                         "name":"storyText",
+                         "type":"string",
+                         "value":"WARNING: DANGER AHEAD"
+                        },
+                        {
+                         "name":"storyTextPosition",
+                         "type":"string",
+                         "value":"top"
+                        },
+                        {
+                         "name":"storyTextStyle",
+                         "type":"string",
+                         "value":"alert"
+                        },
+                        {
+                         "name":"storyTextColor",
+                         "type":"string",
+                         "value":"#ff3333"
+                        },
+                        {
+                         "name":"storyTextSize",
+                         "type":"int",
+                         "value":36
+                        },
+                        {
+                         "name":"storyTextDuration",
+                         "type":"int",
+                         "value":3000
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":192,
+                 "x":416,
+                 "y":320
+                },
+                {
+                 "class":"",
+                 "height":96,
+                 "id":4,
+                 "name":"subtitle_zone",
+                 "properties":[
+                        {
+                         "name":"storyText",
+                         "type":"string",
+                         "value":"[Old Man] You must be Christian... I've been expecting you."
+                        },
+                        {
+                         "name":"storyTextPosition",
+                         "type":"string",
+                         "value":"bottom"
+                        },
+                        {
+                         "name":"storyTextStyle",
+                         "type":"string",
+                         "value":"subtitle"
+                        },
+                        {
+                         "name":"storyTextDuration",
+                         "type":"int",
+                         "value":5000
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":160,
+                 "x":256,
+                 "y":384
+                },
+                {
+                 "class":"",
+                 "height":192,
+                 "id":5,
+                 "name":"discovery_zone",
+                 "properties":[
+                        {
+                         "name":"storyText",
+                         "type":"string",
+                         "value":"Christian discovers a hidden passage behind the bookshelf. The adventure continues..."
+                        },
+                        {
+                         "name":"storyTextPosition",
+                         "type":"string",
+                         "value":"bottom"
+                        },
+                        {
+                         "name":"storyTextStyle",
+                         "type":"string",
+                         "value":"cinematic"
+                        },
+                        {
+                         "name":"storyLetterbox",
+                         "type":"bool",
+                         "value":true
+                        },
+                        {
+                         "name":"storyTextDuration",
+                         "type":"int",
+                         "value":7000
+                        },
+                        {
+                         "name":"storyFadeIn",
+                         "type":"int",
+                         "value":800
+                        },
+                        {
+                         "name":"storyOnce",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":192,
+                 "x":32,
+                 "y":416
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":11,
+ "nextobjectid":6,
+ "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Christian's Story - Demo"
+        },
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"A demo map showcasing story text zones for Christian's Story"
+        }],
+ "renderorder":"right-down",
+ "tiledversion":"1.9.2",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":11,
+         "firstgid":201,
+         "image":"../assets/tileset1.png",
+         "imageheight":352,
+         "imagewidth":352,
+         "margin":0,
+         "name":"tileset1",
+         "spacing":0,
+         "tilecount":121,
+         "tileheight":32,
+         "tilewidth":32
+        },
+        {
+         "columns":6,
+         "firstgid":443,
+         "image":"../assets/Special_Zones.png",
+         "imageheight":64,
+         "imagewidth":192,
+         "margin":0,
+         "name":"Special_Zones",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                },
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":"1.9",
+ "width":20
+}

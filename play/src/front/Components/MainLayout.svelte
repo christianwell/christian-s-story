@@ -69,6 +69,7 @@
     import RecordingsListModal from "./PopUp/Recording/RecordingsListModal.svelte";
     import ProximityNotificationContainer from "./ProximityNotification/ProximityNotificationContainer.svelte";
     import MeetingInvitationPopup from "./MeetingInvitation/MeetingInvitationPopup.svelte";
+    import StoryTextOverlay from "./Story/StoryTextOverlay.svelte";
 
     const handleFocusInEvent = (event: FocusEvent) => {
         if (
@@ -282,6 +283,8 @@
         <ActionBar />
     </div>
 </div>
+
+<StoryTextOverlay />
 
 <style lang="scss">
     @use "../style/breakpoints.scss" as *;

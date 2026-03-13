@@ -9,6 +9,7 @@ import { z } from "zod";
 import { scriptUtils } from "../../Api/ScriptUtils";
 import { coWebsites } from "../../Stores/CoWebsiteStore";
 import { localUserStore } from "../../Connection/LocalUserStore";
+import { storyTextStore } from "../../Stores/StoryTextStore";
 import { ON_ACTION_TRIGGER_BUTTON, ON_ACTION_TRIGGER_ENTER, ON_ICON_TRIGGER_BUTTON } from "../../WebRtc/LayoutManager";
 import type { CoWebsite } from "../../WebRtc/CoWebsite/CoWebsite";
 import { SimpleCoWebsite } from "../../WebRtc/CoWebsite/SimpleCoWebsite";
@@ -415,6 +416,27 @@ export class GameMapPropertiesListener {
             } else {
                 audioManagerFileStore.unloadAudio();
                 audioManagerVisibilityStore.set("hidden");
+            }
+        });
+
+        // Story text zones — triggered via Tiled custom properties
+        this.gameMapFrontWrapper.onPropertyChange(GameMapProperties.STORY_TEXT, (newValue, oldValue, allProps) => {
+            if (newValue === undefined) {
+                storyTextStore.hide();
+                return;
+            }
+            if (typeof newValue === "string" && newValue.length > 0) {
+                storyTextStore.show(newValue, {
+                    position: allProps.get(GameMapProperties.STORY_TEXT_POSITION) as string | undefined,
+                    style: allProps.get(GameMapProperties.STORY_TEXT_STYLE) as string | undefined,
+                    color: allProps.get(GameMapProperties.STORY_TEXT_COLOR) as string | undefined,
+                    size: allProps.get(GameMapProperties.STORY_TEXT_SIZE) as number | undefined,
+                    duration: allProps.get(GameMapProperties.STORY_TEXT_DURATION) as number | undefined,
+                    fadeIn: allProps.get(GameMapProperties.STORY_FADE_IN) as number | undefined,
+                    fadeOut: allProps.get(GameMapProperties.STORY_FADE_OUT) as number | undefined,
+                    letterbox: allProps.get(GameMapProperties.STORY_LETTERBOX) as boolean | undefined,
+                    once: allProps.get(GameMapProperties.STORY_ONCE) as boolean | undefined,
+                });
             }
         });
 
